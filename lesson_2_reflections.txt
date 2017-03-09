@@ -1,11 +1,19 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+When you initialize a repository a hidden directory .git is created this tells git to keep track of commits inside this directory. This is important, without first running this
+command git doesn't know to track it.
+
 How is the staging area different from the working directory and the repository?
+
+The staging area is where files a prepared to be used in a commit. The
+value in this allows for grouping of related items into a single commit
+
 What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
-
+I can use the staging area to group together files that have a logical
+change and have anything unrelated left out.
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
